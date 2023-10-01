@@ -1,0 +1,141 @@
+-root
+{
+}
+*
+{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    background-color: rgb(13, 13, 13);
+    text-align:center;
+}
+header
+{
+    position: fixed;
+    width: 100%;
+}
+h1
+{
+    text-shadow: 0px 3px 5px rgb(0, 0, 0);
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+nav
+{
+    text-shadow: 0px 3px 5px rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color:antiquewhite;
+    background-color:rgb(5, 28, 18);
+}
+#menu-icon
+{
+    width: 20px;
+    height:20px;
+}
+
+nav p:hover
+{
+    scale:1.1;
+    text-decoration: underline;
+    color:antiquewhite
+}
+div.slogan
+{
+    margin: auto;
+    max-width:500px;
+    background-image: url(image/iplacebr-home-iphone15-290923-mob.gif);
+    background-size:100% 550px;
+    background-repeat:no-repeat;
+    background-position: center 60px;
+    height: 600px;   display: block;
+    position: inherit;
+}
+aside
+{
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    max-width: 450px;
+    height: 80px;
+    background-color:rgb(32,32,32);
+    padding: 25px;
+}
+a
+{
+    text-decoration:none
+}
+span
+{
+    color:rgb(200, 212, 0);
+}
+aside h1 
+{
+    line-height:26.4px;
+    color:rgb(255, 255, 255);
+    font:bold normal 22px arial, helvetica, sans-serif;
+    margin:auto;
+    background-color:rgb(32,32,32);
+}
+div.iphone-15-expo
+{
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    height: 200px;
+}
+div.expo
+{
+    widht:22%
+    
+}
+div.expo img
+{
+    width: 60px;
+    height: 80px;
+}
+div.produtos
+{
+    width: 40%;
+    box-shadow:2px 2px 10px rgba(195, 195, 195, 0.276);
+    border-radius:5px;
+    margin-top:30px;
+    margin:20px;
+    display: inline-block;
+    text-align: left;
+}
+.title
+{ margin-top: 5px;
+    font:normal normal 13px serif;
+    line-height: 16px;
+}
+.price
+{
+    margin-top: 40px;
+    font: bold normal 16px black Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+.sub-price
+{
+    color:rgb(56, 55, 58);
+    font:normal 12px Arial, Helvetica, sans-serif ;
+    line-height: 16px;
+}
+img
+{
+    border-radius:5px;
+    width: 120px;
+    height: 130px;
+}
+main
+{
+    background-color: rgb(255, 255, 255);
+    margin:auto;
+    max-width: 500px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
