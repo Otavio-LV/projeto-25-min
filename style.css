@@ -44,6 +44,12 @@ nav p:hover
     text-decoration: underline;
     color:antiquewhite
 }
+div#background
+{
+    margin: auto;
+    background-color: white;
+    max-width: 500px;
+}
 div.slogan
 {
     margin: auto;
@@ -58,7 +64,6 @@ div.slogan
 aside
 {
     margin: auto;
-    border-radius: 10px 10px 0px 0px;
     max-width: 450px;
     height: 80px;
     background-color:rgb(32,32,32);
@@ -82,20 +87,28 @@ aside h1
 }
 div.iphone-15-expo
 {
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
     background-color: white;
     max-width: 500px;
-    margin: auto;
-    height: 200px;
+    height: 250px;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.532);
+    margin:-10px auto 10px auto ;
 }
 div.expo
-{
-    widht:22%
+{ 
+
+    width:22%
     
 }
 div.expo img
 {
-    width: 60px;
-    height: 80px;
+    max-width: 100%;
+    width:100px;
+    height:110px;
 }
 div.produtos
 {
@@ -107,9 +120,22 @@ div.produtos
     display: inline-block;
     text-align: left;
 }
+p.title-expo
+{
+    margin-top:2.5px;
+    font:bold normal 10px arial, helvetica, sans-serif;
+}
+p.price-expo
+{font:bolder normal 13px arial, helvetica, sans-serif;
+}
+p.sub-price-expo
+{
+    font:normal normal 9px arial, helvetica, sans-serif;
+    color:rgb(56, 55, 58);
+}
 .title
 { margin-top: 5px;
-    font:normal normal 13px serif;
+    font:normal normal 13px arial, helvetica, sans-serif;
     line-height: 16px;
 }
 .price
@@ -124,7 +150,7 @@ div.produtos
     font:normal 12px Arial, Helvetica, sans-serif ;
     line-height: 16px;
 }
-img
+main img
 {
     border-radius:5px;
     width: 120px;
@@ -132,7 +158,6 @@ img
 }
 main
 {
-    background-color: rgb(255, 255, 255);
     margin:auto;
     max-width: 500px;
     display:flex;
