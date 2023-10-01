@@ -135,14 +135,10 @@ div#banner-acess
 {
     border-radius: 10px;
     background-image: url(image/iplacebr-home-acessorios-260923-mob.webp);
-    background-size: cover;
+    background-size: 100% 475px;
     margin-top: -10px;
     max-width: 100%;
     height: 475px;
-}
-div#banner-acess img 
-{
-    max-width: 100%;
 }
 .title
 { margin-top: 5px;
